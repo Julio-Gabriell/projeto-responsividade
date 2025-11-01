@@ -23,8 +23,28 @@ body {
   width: 250px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .item {
     width: 90%;
+    background-color: aqua;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .item {
+    background-color: red;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .item {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1024px) {
+  .item {
+    background-color: green;
   }
 }
